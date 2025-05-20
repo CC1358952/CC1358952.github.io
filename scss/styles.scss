@@ -463,7 +463,7 @@ footer {
     display: block;
     margin: 0 auto 20px auto; // Center the image and add spacing below
     width: 150px; // Set a small size for the image
-    height: 150px; // Ensure it's a square
+    height: 150px !important;// Ensure it's a square
     border-radius: 50%; // Make it circular
     background: url('../images/circle-profile-1.jpg') no-repeat center center;
     background-size: cover; // Ensure the image fits properly
