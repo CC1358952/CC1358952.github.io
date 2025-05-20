@@ -451,19 +451,35 @@ footer {
 
     h2 {
         color: $heading;
+        margin-bottom: 20px; // Add spacing below the heading
     }
 
     #about-image {
-        display: block;
-        margin: 0 auto 20px auto; // Center the image and add spacing below
-        width: 150px; // Set a small size for the image
-        height: 150px !important;// Ensure it's a square
-        border-radius: 50%; // Make it circular
-        background: url('../images/circle-profile-1.jpg') no-repeat center center;
-        background-size: cover; // Ensure the image fits properly
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        display: flex;
+        justify-content: center; // Center the image horizontally
+        margin-bottom: 20px; // Add spacing below the image
+
+        img {
+            width: 150px; // Set the size of the image
+            height: 150px; // Ensure it's a square
+            border-radius: 50%; // Make it circular
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        }
     }
-    
+
+    .row {
+        display: flex;
+        align-items: flex-start; // Align items at the top
+    }
+
+    .col-md-4 {
+        text-align: center; // Center-align the heading and image
+    }
+
+    .col-md-8 {
+        text-align: left; // Left-align the text
+    }
+
     p {
         color: $text;
         margin: 0;
