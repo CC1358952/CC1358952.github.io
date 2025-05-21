@@ -790,6 +790,7 @@ body {
     }
     #lead-content h2 {
       font-size: 1.75em;
+      font-weight: "bold";
     }
     #about {
       text-align: center;
@@ -826,6 +827,7 @@ body {
     }
     #lead-content h2 {
       font-size: 1.3em;
+      font-weight: "bold";
     }
     #lead-content a {
       padding: 10px 20px;
@@ -859,6 +861,7 @@ body {
     }
     #lead-content h2 {
       font-size: 1em;
+      font-weight: "bold";
     }
     #lead-content a {
       font-size: 0.9em;
