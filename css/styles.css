@@ -514,6 +514,17 @@ body {
     font-weight: 700;
     margin-bottom: 50px;
   }
+  .education-logo {
+    text-align: center; /* Center the logo horizontally */
+    margin-bottom: 15px; /* Add spacing below the logo */
+}
+
+  .education-logo img {
+    max-width: 100%; /* Ensure the logo scales responsively */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 80px; /* Optional: Limit the height of the logo */
+    display: inline-block; /* Ensure proper alignment */
+}
   
   .education-block {
     max-width: 700px;
@@ -862,7 +873,7 @@ body {
     }
     #lead-content h2 {
       font-size: 1em;
-      font-weight: 700;
+      font-weight: 300;
     }
     #lead-content a {
       font-size: 0.9em;
