@@ -302,7 +302,7 @@ body {
   }
   #lead-content h2 {
     color: #fff;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 2.25em;
     margin-bottom: 15px;
   }
@@ -367,7 +367,7 @@ body {
   }
   #about h2 {
     color: #BA0C2F;
-    font-weight: "bold";
+    font-weight: 700;
     margin-bottom: 20px;
   }
   #about #about-image {
@@ -408,7 +408,7 @@ body {
   }
   #experience h2 {
     color: #BA0C2F;
-    font-weight: "bold";
+    font-weight: 700;
   }
   
   #experience-timeline {
@@ -511,7 +511,7 @@ body {
   }
   #education h2 {
     color: #BA0C2F;
-    font-weight: "bold";
+    font-weight: 700;
     margin-bottom: 50px;
   }
   
@@ -559,7 +559,7 @@ body {
   }
   #projects h2 {
     color: #BA0C2F;
-    font-weight: "bold";
+    font-weight: 700;
     margin-bottom: 50px;
   }
   
@@ -617,7 +617,7 @@ body {
   }
   #skills h2 {
     color: #BA0C2F;
-    font-weight: "bold";
+    font-weight: 700;
     margin-bottom: 50px;
   }
   #skills ul {
@@ -718,6 +718,7 @@ body {
   }
   .optional-section h2 {
     color: #BA0C2F;
+    font-weight: 700;
   }
   
   .optional-section-block {
@@ -790,7 +791,7 @@ body {
     }
     #lead-content h2 {
       font-size: 1.75em;
-      font-weight: "bold";
+      font-weight: 700;
     }
     #about {
       text-align: center;
@@ -827,7 +828,7 @@ body {
     }
     #lead-content h2 {
       font-size: 1.3em;
-      font-weight: "bold";
+      font-weight: 700;
     }
     #lead-content a {
       padding: 10px 20px;
@@ -861,7 +862,7 @@ body {
     }
     #lead-content h2 {
       font-size: 1em;
-      font-weight: "bold";
+      font-weight: 700;
     }
     #lead-content a {
       font-size: 0.9em;
