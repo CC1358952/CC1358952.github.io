@@ -644,10 +644,11 @@ body {
     margin: 7px;
     padding: 5px 10px;
     color: #BA0C2F;
-    background: #e4e4ea;
+    background: #ffffff;
     list-style: none;
     cursor: default;
     font-size: 1.2em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
   }
   
   /*
