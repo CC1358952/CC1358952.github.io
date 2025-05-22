@@ -537,14 +537,15 @@ body {
     font-weight: 500;
     float: left;
     margin: 0;
-    color: #BA0C2F;
+    color: #000000;
   }
   .education-block span {
     color: #F45272;
     float: right;
+    font-style: "italic";
   }
   .education-block h4 {
-    color: #F45272;
+    color: #BA0C2F;
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0;
