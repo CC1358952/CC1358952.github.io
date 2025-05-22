@@ -542,12 +542,12 @@ body {
   .education-block span {
     color: #000000;
     float: right;
-    font-style: italic;
   }
   .education-block h4 {
     color: #000000;
     clear: both;
     font-weight: 500;
+    font-style: italic;
     margin: 0 0 15px 0;
   }
   .education-block p, .education-block ul {
