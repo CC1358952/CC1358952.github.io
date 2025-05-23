@@ -3,15 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Page</title>
+    <title>Projects</title>
     <link href="css/styles.css" rel="stylesheet"> <!-- Link to your existing CSS -->
 </head>
 <body>
     <header>
-        <h1>New Page</h1>
+        <h1>Projects</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="education.html">Education</a>
+            <a href="skills.html">Skills</a>
+        </nav>
     </header>
     <main>
-        <p>This is a new page that is separate from the animations on the main site.</p>
+        <section id="projects">
+            <div class="container">
+                <h2 class="heading">My Projects</h2>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/finLearnPic.png" alt="Financial Learning">
+                    </div>
+                    <div class="project-info">
+                        <h3>Financial Learning</h3>
+                        <p>A web application that allows users to learn about financial concepts through interactive quizzes and resources. The app is built using React and Node.js, with badges and statistics to track user progress. Made at UGAHacksX hackathon. Project concept provided as a challenge by the UGA FinTech program from Truist.</p>
+                        <a href="https://github.com/CC1358952/UGAHacksX" class="project-button">View Project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/weatherLearnPic.png" alt="NHL Weather API">
+                    </div>
+                    <div class="project-info">
+                        <h3>NHL Weather API</h3>
+                        <p>A Java executable that uses the OpenWeather API to get the current weather for a the hometown of a user-selected NHL player. The program uses the NHL API to get information about the player, and then pipes the hometown of the player to the OpenWeather API to get the real-time weather for that location.</p>
+                        <a href="https://github.com/CC1358952/NHL-Hometown-Weather" class="project-button">View Project</a>
+                    </div>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 Caleb Cort</p>
