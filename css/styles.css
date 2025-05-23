@@ -781,6 +781,79 @@ body {
   .optional-section-block ul {
     padding: 0 0 0 15px;
   }
+
+  /* Projects Section */
+#projects {
+    padding: 50px 15px;
+    background: #f2f2f5; /* Alternate background color */
+}
+
+#projects .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    border: 1px solid #dcd9d9;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+    flex: 1 1 300px;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.project-info {
+    flex: 2 1 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-info h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #BA0C2F; /* UGA red */
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.project-button {
+    display: inline-block;
+    color: #BA0C2F; /* UGA red */
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #BA0C2F;
+    background-color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.project-button:hover {
+    background: #BA0C2F; /* UGA red */
+    color: #fff;
+}
   
   /*
       -----------------------------
