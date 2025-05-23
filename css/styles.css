@@ -605,7 +605,7 @@ body {
     display: inline-block;
     color: #fff;
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: 50%;
     background: #BA0C2F;
     text-decoration: none;
     font-weight: 700;
@@ -614,7 +614,7 @@ body {
   .project-button:hover {
     background: #8a0923;
   }
-  
+
   .project-info h3 {
     font-size: 1.5em;
     font-weight: 300;
