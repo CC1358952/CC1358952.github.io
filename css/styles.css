@@ -602,19 +602,14 @@ body {
   }
 
   .project-button {
-    display: inline-block;
     color: #BA0C2F;
-    padding: 20px 10px;
+    padding: 15px 25px;
+    border: 3px solid #BA0C2F;
+    background-color: #fff;
     border-radius: 30px;
-    border-width: 10px;
-    border-color: #BA0C2F;
-    background: #b9bfc4;
-    text-decoration: none;
-    font-weight: 700;
-    transition: 0.5s ease all;
   }
   .project-button:hover {
-    background: #8a0923;
+    background: #f2f2f5;
   }
 
   .project-info h3 {
