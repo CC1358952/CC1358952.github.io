@@ -603,10 +603,12 @@ body {
 
   .project-button {
     display: inline-block;
-    color: #fff;
-    padding: 10px 20px;
+    color: #BA0C2F;
+    padding: 20px 10px;
     border-radius: 30px;
-    background: #BA0C2F;
+    border-width: 10px;
+    border-color: #BA0C2F;
+    background: #b9bfc4;
     text-decoration: none;
     font-weight: 700;
     transition: 0.5s ease all;
