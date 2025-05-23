@@ -604,13 +604,15 @@ body {
   .project-button {
     display: inline-block;
     color: #BA0C2F;
+    font-weight: bold;
     padding: 15px 25px;
     border: 3px solid #BA0C2F;
-    background-color: #f2f2f5;
+    background-color: #fff;
     border-radius: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
   }
   .project-button:hover {
-    background: #fff;
+    background: #f2f2f5;
   }
 
   .project-info h3 {
