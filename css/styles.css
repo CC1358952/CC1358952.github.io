@@ -578,7 +578,7 @@ body {
   
   .project {
     position: relative;
-    max-width: 900px;
+    width: 500px;
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
