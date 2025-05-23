@@ -578,7 +578,7 @@ body {
   
   .project {
     position: relative;
-    height: 350px;
+    height: 300px;
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
@@ -588,6 +588,7 @@ body {
   
   .project-image {
     float: left;
+    width: 100px;
     object-fit: contain;
   }
   
