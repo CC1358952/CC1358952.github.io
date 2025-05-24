@@ -863,7 +863,7 @@ body {
 }
 
 .certification {
-    width: 900px; /* Match the width of project blocks */
+    width: 600px; /* Match the width of project blocks */
     aspect-ratio: 4/3;
     margin: 20px auto; /* Center the blocks and add spacing */
     perspective: 1000px; /* Enable 3D perspective for flip animation */
