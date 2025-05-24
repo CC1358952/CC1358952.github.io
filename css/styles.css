@@ -899,7 +899,25 @@ body {
     background: #fff;
     color: #333;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px; /* Add spacing between elements */
+}
+
+.certification-front h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    color: #BA0C2F; /* UGA red */
+}
+
+.certification-front .date-earned {
+    font-size: 0.9em;
+    color: #555; /* Subtle gray color */
+    font-style: italic;
 }
 
 .certification-back {
@@ -926,6 +944,19 @@ body {
     font-weight: 700;
     margin-bottom: 50px;
   }
+
+  .skills-list {
+    list-style-type: disc;
+    margin: 10px 0 0 20px; /* Add spacing and indentation */
+    padding: 0;
+    text-align: left; /* Align the list to the left */
+}
+
+.skills-list li {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 5px; /* Add spacing between list items */
+}
   
   /*
       -----------------------------
