@@ -854,6 +854,62 @@ body {
     background: #BA0C2F; /* UGA red */
     color: #fff;
 }
+
+/* Certifications Section */
+#certifications {
+    padding: 50px 15px;
+    background: #f2f2f5; /* Alternate background color */
+    text-align: center;
+}
+
+.certification {
+    perspective: 1000px; /* Enable 3D perspective for the flip effect */
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+}
+
+.certification-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+}
+
+.certification:hover .certification-card {
+    transform: rotateY(180deg); /* Flip the card on hover */
+}
+
+.certification-front,
+.certification-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Hide the back side when not flipped */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dcd9d9;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.certification-front {
+    background: #fff;
+    color: #333;
+}
+
+.certification-back {
+    background: #fff;
+    transform: rotateY(180deg); /* Position the back side for the flip */
+}
+
+.certification-back img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 5px;
+}
   
   /*
       -----------------------------
