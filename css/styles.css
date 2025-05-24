@@ -863,10 +863,10 @@ body {
 }
 
 .certification {
-    perspective: 1000px; /* Enable 3D perspective for the flip effect */
-    margin: 20px auto;
-    width: 300px;
-    height: 300px;
+    width: 300px; /* Match the width of project blocks */
+    aspect-ratio: 1 / 1; /* Maintain a 1:1 aspect ratio (square) */
+    margin: 20px auto; /* Center the blocks and add spacing */
+    perspective: 1000px; /* Enable 3D perspective for flip animation */
 }
 
 .certification-card {
@@ -898,6 +898,8 @@ body {
 .certification-front {
     background: #fff;
     color: #333;
+    text-align: center;
+    padding: 10px;
 }
 
 .certification-back {
@@ -918,6 +920,12 @@ body {
     color: #555; /* Subtle gray color */
     font-style: italic;
 }
+
+.h2 {
+    color: #BA0C2F;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
   
   /*
       -----------------------------
