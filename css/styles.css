@@ -863,7 +863,7 @@ body {
 }
 
 .certification {
-    width: 300px; /* Match the width of project blocks */
+    width: 900px; /* Match the width of project blocks */
     aspect-ratio: 1 / 1; /* Maintain a 1:1 aspect ratio (square) */
     margin: 20px auto; /* Center the blocks and add spacing */
     perspective: 1000px; /* Enable 3D perspective for flip animation */
@@ -921,7 +921,7 @@ body {
     font-style: italic;
 }
 
-.h2 {
+.heading {
     color: #BA0C2F;
     font-weight: 700;
     margin-bottom: 50px;
