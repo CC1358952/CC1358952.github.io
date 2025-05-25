@@ -529,31 +529,31 @@ body {
   .education-block {
     max-width: 700px;
     margin: 0 auto 30px auto;
-    padding: 15px;
+    padding: 20px;
     border: 1px solid #dcd9d9;
     text-align: left;
     background-color: #FFFFFF;
   }
   .education-block h3 {
-    font-weight: 500;
+    font-weight: bold;
+    font-size: 1.5em;
     float: left;
     margin: 0;
-    color: #000000;
+    color: #BA0C2F;
   }
   .education-block span {
-    color: #000000;
+    color: #BA0C2F;
     float: right;
   }
   .education-block h4 {
-    color: #000000;
+    color: #BA0C2F;
     clear: both;
-    font-weight: 500;
     font-style: italic;
     margin: 0 0 15px 0;
   }
   .education-block p, .education-block ul {
     margin: 0;
-    color: #BA0C2F;
+    color: #000;
     font-size: 0.9em;
   }
   .education-block ul {
