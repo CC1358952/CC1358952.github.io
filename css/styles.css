@@ -44,11 +44,11 @@
 body {
     font-family: "Lato", sans-serif;
     font-size: 16px;
-  }
+  /* Removed the extra closing brace */
   body.active {
     overflow: hidden;
     z-index: -1;
-  }
+}
   
   .no-js #experience-timeline > div {
     background: #fff;
@@ -529,31 +529,31 @@ body {
   .education-block {
     max-width: 700px;
     margin: 0 auto 30px auto;
-    padding: 20px;
+    padding: 15px;
     border: 1px solid #dcd9d9;
     text-align: left;
     background-color: #FFFFFF;
   }
   .education-block h3 {
-    font-weight: bold;
-    font-size: 1.5em;
+    font-weight: 500;
     float: left;
     margin: 0;
-    color: #BA0C2F;
+    color: #000000;
   }
   .education-block span {
-    color: #BA0C2F;
+    color: #000000;
     float: right;
   }
   .education-block h4 {
-    color: #BA0C2F;
+    color: #000000;
     clear: both;
+    font-weight: 500;
     font-style: italic;
     margin: 0 0 15px 0;
   }
   .education-block p, .education-block ul {
     margin: 0;
-    color: #000;
+    color: #BA0C2F;
     font-size: 0.9em;
   }
   .education-block ul {
@@ -862,6 +862,13 @@ body {
     text-align: center;
 }
 
+.certification-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Force two equal-width columns */
+    gap: 20px; /* Add spacing between rows and columns */
+    justify-items: center; /* Center the cards horizontally */
+}
+
 .certification {
     width: 600px; /* Match the width of project blocks */
     aspect-ratio: 4/3;
@@ -897,24 +904,17 @@ body {
 
 .certification-front {
     background: #fff;
-    color: #333;
-    text-align: center;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px; /* Add spacing between elements */
+    transform: rotateY(0deg); /* Default front side */
 }
 
-.certification-front h3 {
-    font-size: 1.2em;
+.certification-back h3 {
+    font-size: 1.7em;
     font-weight: bold;
     margin: 0;
     color: #BA0C2F; /* UGA red */
 }
 
-.certification-front .date-earned {
+.certification-back .date-earned {
     font-size: 0.9em;
     color: #555; /* Subtle gray color */
     font-style: italic;
@@ -923,9 +923,14 @@ body {
 .certification-back {
     background: #fff;
     transform: rotateY(180deg); /* Position the back side for the flip */
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.certification-back img {
+.certification-front img {
     max-width: 90%;
     max-height: 90%;
     border-radius: 5px;
@@ -945,7 +950,7 @@ body {
     margin-bottom: 50px;
   }
 
-  .skills-list {
+.skills-list {
     list-style-type: disc;
     margin: 10px 0 0 20px; /* Add spacing and indentation */
     padding: 0;
@@ -957,7 +962,36 @@ body {
     color: #333;
     margin-bottom: 5px; /* Add spacing between list items */
 }
-  
+
+.skills-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Space between skill boxes */
+    margin-top: 10px;
+}
+
+.skill-box {
+    background: #fff; /* Light gray background */
+    color: #BA0C2F; /* Text color */
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid #dcd9d9;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+    flex: 1 1 auto; /* Allow boxes to grow and shrink */
+    max-width: 150px; /* Limit the width of each box */
+}
+
+.cert-summary {
+    margin: 20px auto; /* Center the summary and add spacing */
+    max-width: 800px; /* Limit the width of the summary */
+    text-align: center; /* Align text to the left */
+    font-size: 0.9em; /* Adjust font size for readability */
+    color: #000; 
+}
   /*
       -----------------------------
       ----- 12. Media Queries -----
@@ -1077,4 +1111,9 @@ body {
       font-size: 0.9em;
       padding: 5px 10px;
     }
-  }/*# sourceMappingURL=styles.css.map */
+  }
+  @media (max-width: 768px) {
+    .certification-row {
+        grid-template-columns: 1fr; /* Switch to a single column on smaller screens */
+    }
+}}
