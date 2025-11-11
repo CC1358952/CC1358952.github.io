@@ -618,11 +618,23 @@ footer {
     align-items: start; /* keep cards aligned at top so varying content doesn't change row height */
 }
 
+/* base cert width variable (used by certifications) */
+:root {
+    --cert-width: 300px; /* adjust if your certification width differs */
+}
+
+/* ensure certification cards use the base size */
 .certification {
-    width: 100%;
-    max-width: 300px; /* match project image width */
+    width: var(--cert-width);
+    max-width: 100%;
     box-sizing: border-box;
-    perspective: 1000px; /* keep existing flip effect */
+}
+
+/* make course cards 90% of certification width */
+#courses .certification {
+    width: calc(var(--cert-width) * 0.9);
+    max-width: 100%;
+    margin: 0 auto; /* center inside grid cell */
 }
 
 /*
